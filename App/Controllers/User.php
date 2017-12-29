@@ -27,12 +27,12 @@ class User
     }
     protected function actionLogin()
     {        
-        $this->view->title = 'Система модерации | Авторизация';
-        $this->view->display(__DIR__ . '/../templates/login.php');
+        $this->view->title = 'Система тестирования | Авторизация';
+        $this->view->display(__DIR__ . '/../templates/views/login.php');
     }
     protected function actionSessionError()
     {        
-        $this->view->display(__DIR__ . '/../templates/sessionError.php');
+        $this->view->display(__DIR__ . '/../templates/views/sessionError.php');
     }
     protected function actionAuth()
     {

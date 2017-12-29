@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'moderate' => 'site/index',
-    'moderate/about' => 'site/about',
-    'moderate/login' => 'user/login',
-    'moderate/sessionError' => 'user/sessionError',
-    'moderate/auth' =>  'user/auth',
-    'moderate/ajaxOpenQuestion'=>'Question/oneQuestion',
-    'moderate/ajaxAgree'=>'Question/agreeQuestion',
-    'moderate/ajaxDisAgree'=>'Question/disAgreeQuestion',
-    'moderate/ajaxNewQ'=>'Question/allNewQuestion',
-    'moderate/ajaxAgreeQ'=>'Question/allAgreeQuestion',
-    'moderate/ajaxDisAgreeQ'=>'Question/allDisAgreeQuestion',
+    'projectx' => 'site/index',
+    'projectx/about' => 'site/about',
+    'projectx/login' => 'user/login',
+    'projectx/sessionError' => 'user/sessionError',
+    'projectx/auth' =>  'user/auth',
+    'projectx/ajaxOpenQuestion'=>'Question/oneQuestion',
+    'projectx/ajaxAgree'=>'Question/agreeQuestion',
+    'projectx/ajaxDisAgree'=>'Question/disAgreeQuestion',
+    'projectx/ajaxNewQ'=>'Question/allNewQuestion',
+    'projectx/ajaxAgreeQ'=>'Question/allAgreeQuestion',
+    'projectx/ajaxDisAgreeQ'=>'Question/allDisAgreeQuestion',
     
 );

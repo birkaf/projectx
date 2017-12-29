@@ -1,7 +1,7 @@
 Options +SymLinksIfOwnerMatch
 AddDefaultCharset utf-8
 RewriteEngine On
-RewriteBase /moderate
+RewriteBase /projectx
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l

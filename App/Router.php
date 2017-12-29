@@ -21,6 +21,8 @@ class Router
     {
         // Получить строку запроса
         $uri = $this->getURI();
+//        var_dump($uri);
+//        die();
         $i=1;
         // Проверить наличие такого запроса в routes.php
         foreach ($this->routes as $uriPattern => $path) {
